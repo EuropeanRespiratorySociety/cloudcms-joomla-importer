@@ -4,8 +4,7 @@
   "description": "Import Joomla content to Cloud CMS",
   "main": "importer.js",
   "scripts": {
-    "start": "node app",
-    "setup": "node setup"
+    "start": "node importer"
   },
   "repository": {
     "type": "git",

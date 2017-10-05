@@ -39,7 +39,7 @@ const self = module.exports = {
         }
         ]).then(answers => {
             if( ['zoo-setup', 'zoo-content'].indexOf(answers.importer) != -1){
-                lib.Setup.setup(branch, nodes[answers.importer])
+                lib.Setup.setup(branch, nodes[answers.importer.split('-')[1]])
             }
 
             if(answers.importer.split('-')[1] == 'teardown'){
