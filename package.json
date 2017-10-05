@@ -1,0 +1,36 @@
+{
+  "name": "cloudcms-joomla-importer",
+  "version": "0.0.1",
+  "description": "Import Joomla content to Cloud CMS",
+  "main": "importer.js",
+  "scripts": {
+    "start": "node app",
+    "setup": "node setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EuropeanRespiratorySociety/cloudcms-joomla-importer.git"
+  },
+  "keywords": [
+    "importer",
+    "zoo",
+    "joomla",
+    "cloud",
+    "cms",
+    "menu"
+  ],
+  "author": "Samuel Pouyt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EuropeanRespiratorySociety/cloudcms-joomla-importer.git"
+  },
+  "homepage": "https://github.com/EuropeanRespiratorySociety/cloudcms-joomla-importer.git",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.1.2",
+    "gitana": "^1.0.242",
+    "inquirer": "^3.1.1"
+  }
+}
