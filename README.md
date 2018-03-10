@@ -1,5 +1,7 @@
 # Joomla importer
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/EuropeanRespiratorySociety/cloudcms-joomla-importer.svg)](https://greenkeeper.io/)
+
 ## Aim
 * Import from Zoo
 * Import from other components [comming]
